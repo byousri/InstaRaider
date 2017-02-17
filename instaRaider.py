@@ -171,7 +171,7 @@ class InstaRaider(object):
 
         if (num_to_download > 12):
             scroll_to_bottom = self.get_scroll_count(num_to_download)
-            element = driver.find_element_by_css_selector('a._oidfu')
+            element = driver.find_element_by_css_selector('a._8imhp')
             time.sleep(0.5)
             element.click()
 
